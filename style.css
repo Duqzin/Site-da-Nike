@@ -1,0 +1,56 @@
+body{
+    background-image: url(nikelogo.gif);
+}
+
+#lista{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+
+.corpo{
+    width: 1111px;
+    margin:auto;
+
+}
+
+h1{
+   font-family: 'Franklin Gothic Medium', 'Helvetica', Arial, sans-serif
+}
+
+h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p{
+    color:rgb(74, 67, 67);
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+table:hover{ 
+    border: 10px solid rgb(69, 69, 95);
+    transition: 1s;  
+    }
+
+    .container {
+        position: relative;
+        overflow: hidden;
+        width: 400px;
+        margin: 100px;
+      }
+      .container img {
+        max-width: 100%;
+        -moz-transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        transition: all 0.5s;
+      }
+      .container:hover img {
+        -moz-transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+      }
+
+      .informações{
+        text-align: right;
+    
+      }
