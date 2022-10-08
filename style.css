@@ -1,6 +1,34 @@
 body{
-    background-image: url(nikelogo.gif);
+  min-width:320px;
+  max-width: 1000px;
+  margin: auto;
 }
+
+header{
+  background-color: whitesmoke;
+  padding: 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: bolder;
+
+
+}
+
+div a{
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  padding: 10px 10px 10px 10px;
+  color: black;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+a:hover{
+  background-color: rgb(231, 228, 228);
+  
+}
+
+
 
 .corpo{
   width: 1111px;
@@ -19,7 +47,10 @@ h3{
 p{
   color:rgb(74, 67, 67);
   font-family: Arial, Helvetica, sans-serif;
-
+  min-width: 320px;
+  max-width: 1200px;
+  margin: auto; 
+  width: 100%;
 
 }
 
@@ -28,9 +59,15 @@ p{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 
+table{
+  transition: 1s;
+}
+
 table:hover{ 
-    border: 10px solid rgb(69, 69, 95);
-    transition: 1s;  
+    
+    transition: 1s; 
+    background-color:black; 
+    color: white;
     }
 
     .container {
@@ -51,7 +88,4 @@ table:hover{
         transform: scale(1.2);
       }
 
-      .informações{
-        text-align: right;
-    
-      }
+      
